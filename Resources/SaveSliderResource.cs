@@ -11,9 +11,6 @@ namespace robotistan.Resources
         [Required]
         public string Resim { get; set; }
         [Required]
-        [MaxLength(350)]
-        public string SliderAciklama { get; set; }
-        [Required]
         public string SliderLink { get; set; }
     }
 }

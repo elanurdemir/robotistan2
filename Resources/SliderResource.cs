@@ -9,7 +9,6 @@ namespace robotistan.Resources
     {
         public int Id { get; set; }
         public string Resim { get; set; }
-        public string SliderAciklama { get; set; }
         public string SliderLink { get; set; }
     }
 }

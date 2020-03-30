@@ -10269,11 +10269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elanu\\Documents\\GitHub\\robotistan\\robotistan\\robotistan2\\robotistan.csproj",
+      "projectUniqueName": "C:\\Users\\elanu\\Desktop\\robotistan2\\robotistan.csproj",
       "projectName": "robotistan",
-      "projectPath": "C:\\Users\\elanu\\Documents\\GitHub\\robotistan\\robotistan\\robotistan2\\robotistan.csproj",
+      "projectPath": "C:\\Users\\elanu\\Desktop\\robotistan2\\robotistan.csproj",
       "packagesPath": "C:\\Users\\elanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elanu\\Documents\\GitHub\\robotistan\\robotistan\\robotistan2\\obj\\",
+      "outputPath": "C:\\Users\\elanu\\Desktop\\robotistan2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

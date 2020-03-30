@@ -169,15 +169,14 @@ namespace robotistan.Persistence.Contexts
             builder.Entity<Slider>().ToTable("Slider");
             builder.Entity<Slider>().HasKey(p => p.Id);
             builder.Entity<Slider>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-            builder.Entity<Slider>().Property(p => p.SliderAciklama).IsRequired().HasMaxLength(30);
             builder.Entity<Slider>().Property(p => p.Resim).IsRequired();
             builder.Entity<Slider>().Property(p => p.SliderLink).IsRequired();
 
             builder.Entity<Slider>().HasData
             (
               
-                new Slider { Id = 1, SliderAciklama = "Tüm Arduino Modelleri Burada" ,Resim="",SliderLink=""},
-                new Slider { Id = 2, SliderAciklama = "Arduino Alan Herkese Arduino uyumlu Shield'ler %10 Ýndirimli! ", Resim = "", SliderLink =""}
+                new Slider { Id = 1,Resim="",SliderLink=""},
+                new Slider { Id = 2, Resim = "", SliderLink =""}
             );
             builder.Entity<User>().ToTable("User");
             builder.Entity<User>().HasKey(p => p.Id);
