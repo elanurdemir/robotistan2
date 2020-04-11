@@ -10269,11 +10269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elanu\\Desktop\\robotistan2\\robotistan.csproj",
+      "projectUniqueName": "C:\\Users\\elanu\\Desktop\\robotistan2-master\\robotistan2\\robotistan.csproj",
       "projectName": "robotistan",
-      "projectPath": "C:\\Users\\elanu\\Desktop\\robotistan2\\robotistan.csproj",
+      "projectPath": "C:\\Users\\elanu\\Desktop\\robotistan2-master\\robotistan2\\robotistan.csproj",
       "packagesPath": "C:\\Users\\elanu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elanu\\Desktop\\robotistan2\\obj\\",
+      "outputPath": "C:\\Users\\elanu\\Desktop\\robotistan2-master\\robotistan2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -10386,7 +10386,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
