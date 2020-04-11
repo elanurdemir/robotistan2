@@ -6,7 +6,7 @@ using robotistan.Persistence.Contexts;
 namespace robotistan
 {
 
-#pragma warning disable CS1591
+
     public class Program
     {
         public static void Main(string[] args)
@@ -29,5 +29,5 @@ namespace robotistan
                     webBuilder.UseStartup<Startup>();
                 });
     }
-#pragma warning restore CS1591
+
 }

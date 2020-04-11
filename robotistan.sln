@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "robotistan", "robotistan.csproj", "{22399ADE-AE88-44EE-81F2-BCB865F5B1D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "robotitanTests", "..\robotitanTests\robotitanTests.csproj", "{CDD5B773-305B-41BC-BFF2-C10E039E28EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "robotistanTests", "..\robotitanTests\robotistanTests.csproj", "{CDD5B773-305B-41BC-BFF2-C10E039E28EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22399ADE-AE88-44EE-81F2-BCB865F5B1D2} = {22399ADE-AE88-44EE-81F2-BCB865F5B1D2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
